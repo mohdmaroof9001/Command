@@ -1,0 +1,31 @@
+1. Flutter Web 
+
+- Run Projects
+# flutter run -d chrome --web-renderer html
+- Create Build Web File
+# flutter build web --release --web-renderer auto
+# flutter build web --web-renderer html --release
+
+2. Flutter App Icon Change (Android/iOS)
+
+-flutter_launcher_icons:
+# flutter pub run flutter_launcher_icons:main
+
+3. GitHub SSh Key Generate
+
+- Windows
+# ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+//aotomatic
+ Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):     [Press enter]
+ Enter passphrase (empty for no passphrase): [Press enter] 
+ Enter same passphrase again: [Press enter]
+//
+# eval "$(ssh-agent -s)"
+# clip < ~/.ssh/id_ed25519.pub
+// New SSH Key 
+Title Name
+key paste->   clip < ~/.ssh/id_ed25519.pub
+
+
+
+
