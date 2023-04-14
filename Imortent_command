@@ -1,18 +1,17 @@
 1. Flutter Web 
-
 - Run Projects
 # flutter run -d chrome --web-renderer html
 - Create Build Web File
 # flutter build web --release --web-renderer auto
 # flutter build web --web-renderer html --release
 
-2. Flutter App Icon Change (Android/iOS)
 
+2. Flutter App Icon Change (Android/iOS)
 -flutter_launcher_icons:
 # flutter pub run flutter_launcher_icons:main
 
-3. GitHub SSh Key Generate
 
+3. GitHub SSh Key Generate
 - Windows
 # ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 //aotomatic
